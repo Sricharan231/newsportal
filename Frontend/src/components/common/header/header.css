@@ -1,0 +1,124 @@
+/* .head {
+  cursor: pointer;
+}
+.head .logo img {
+  width: 500px;
+}
+header {
+  background-color:cadetblue;
+  color: #fff;
+
+}
+header li:hover {
+  background-color: black;
+  color: crimson;
+  
+}
+header li {
+  margin-right: 30px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+header li:hover {
+  color: crimson;
+  cursor: pointer;
+}
+header a {
+  color: #fff;
+}
+header a:hover{
+  color:crimson;
+} */
+.barIcon {
+  font-size: 25px;
+  background: none;
+  color: rgb(144, 166, 184);
+  display: none;
+  border: none;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+header{
+  background-color: rgba(13, 78, 218, 0.855);
+  /* position: sticky; */
+  top:0;
+  
+  
+
+}
+
+nav li{
+  padding: 5%;
+  
+}
+nav li :hover{
+  background-color: #fb4c35;
+  padding: 15%;
+  color: whitesmoke;
+  border-radius: 50%;
+}
+nav li a{
+  color: aliceblue;
+}
+.nav-right {
+  padding-top: 0.6%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .head .ad {
+    display: none;
+  }
+  header .icon {
+    display: none;
+  }
+  header .flex {
+    display: none;
+  }
+  .barIcon {
+    display: block;
+  }
+  header .navbar {
+    position: absolute;
+    display: block;
+    background-color: black;
+    left: 0;
+    top: 21%;
+    transition: 0.5s;
+    width: 100%;
+    height: auto;
+    z-index: 5;
+    padding: 50px;
+  }
+  header .navbar {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  header ul li {
+    margin-bottom: 30px;
+  }
+
+}
